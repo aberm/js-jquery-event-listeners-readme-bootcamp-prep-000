@@ -16,7 +16,7 @@ function frameIt() {
 
 function pressIt() {
   $('#typing').on('keydown', function(e){
-    if (e.key === 'G' || e.key === 'g') {
+    if (e.which === 71) {
       alert('You pressed G.');
       return;
     }
